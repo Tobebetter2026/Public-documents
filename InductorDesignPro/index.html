@@ -16,7 +16,7 @@
   <p><strong>电感设计专家</strong> 是一款专业的电感设计工具，帮助电子工程师快速迭代计算和导出电感设计方案。</p>
   <h2>主要功能</h2>
   <ul>
-    <li><strong>多步设计流程</strong>：从参数输入到最终报告，全程引导</li>
+    <li><strong>四步设计流程</strong>：从参数输入到最终报告，全程引导</li>
     <li><strong>智能计算</strong>：自动优化线圈参数、磁芯选择</li>
     <li><strong>专业版自建数据库</strong>：自定义材料、磁芯、骨架，与内置库合并使用</li>
     <li><strong>专业版导出</strong>：支持 PDF、Excel、JSON 格式的设计报告</li>

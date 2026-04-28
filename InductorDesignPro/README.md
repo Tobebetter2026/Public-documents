@@ -13,36 +13,46 @@
 </head>
 <body>
   <h1>电感设计专家</h1>
-  <p><strong>电感设计专家</strong> 是一款专业的电感设计工具，帮助电子工程师快速迭代计算和导出电感设计方案。</p>
-  <h2>主要功能</h2>
+  <p><small>最后更新：2026-04-27</small></p>
+  <p><strong>电感设计专家</strong> 为 Buck / Boost 功率电感提供从规格与约束、磁芯与绕组联合迭代，到汇总报告与导出的完整工作流；计算在设备本地完成，设计数据不向开发者服务器上传。</p>
+  <p>应用采用 <strong>14 天全功能试用</strong>，之后需通过 App Store <strong>年度订阅</strong>继续使用完整能力；具体权限与试用期规则以应用内为准。</p>
+
+  <h2>2.0版要点（相对早期版本）</h2>
   <ul>
-    <li><strong>四步设计流程</strong>：从参数输入到最终报告，全程引导</li>
-    <li><strong>智能计算</strong>：自动优化线圈参数、磁芯选择</li>
-    <li><strong>专业版自建数据库</strong>：自定义材料、磁芯、骨架，与内置库合并使用</li>
-    <li><strong>专业版导出</strong>：支持 PDF、Excel、JSON 格式的设计报告</li>
-    <li><strong>iCloud 同步</strong>：跨设备无缝使用</li>
-    <li><strong>离线安全</strong>：数据仅存本地，零上传</li>
+    <li>规格与约束<strong>合并为一步</strong>，集中预检</li>
+    <li>磁芯 × 线规（含利兹）<strong>联合迭代</strong>、多方案对比与更完整的损耗/温升链路</li>
+    <li>内置材料 / 磁芯 / 骨架库持续扩充；<strong>「我的数据库」</strong>新增<strong>批量导入/导出</strong>（按模板），自定义材料、磁芯、骨架在试用或订阅期内可用，并与内置库合并使用</li>
+    <li>汇总页 <strong>PDF</strong> 报告与导出能力优化</li>
   </ul>
-  <p>本应用为原创独立开发，非模板、非重新打包，未与任何其它 App 共享源代码或素材。</p>
-  <p>独有功能包括：AP 法与 LI² 法磁芯选型与绕组联合迭代计算；帕累托前沿筛选与多组备选方案自动生成及对比；专业版自建数据库（自定义材料/磁芯/骨架，与内置库合并，支持 JSON/Excel 导出）；内置磁芯材料与类型库 (EE/PQ/RM/ETD/Toroid) 及圆线/利兹线数据库；BUCK/BOOST 全拓扑与 CCM/DCM/BCM 全模式；PDF/EXCEL/JSON 导出与 4 步完整工作流；数据仅存本地、离线安全。</p>
-  <h2>使用说明</h2>
+
+  <h2>主要功能概览</h2>
+  <ul>
+    <li>Buck / Boost 拓扑，CCM / DCM / BCM，AP 与 LI² 等选型辅助</li>
+    <li>多种损耗模型路径（Steinmetz、厂商曲线/表、铁粉官方公式等，依材料类型选用）</li>
+    <li>帕累托前沿筛选、多组备选方案对比；可选 iCloud 在您的设备间同步，设计主数据仍以本机为主</li>
+    <li><strong>PDF / JSON</strong> 报告与设计文件导出</li>
+    <li><strong>「我的数据库」</strong>（本应用突出优势）：本机维护材料、磁芯、骨架，支持<strong>批量导入/导出</strong>，与内置库一并参与选型；<strong>不上传服务器</strong>。</li>
+  </ul>
+
+  <h2>使用流程（三步）</h2>
   <ol>
-    <li><strong>第一步</strong>：输入电感基本参数（电感值、电流等）</li>
-    <li><strong>第二步</strong>：输入约束条件</li>
-    <li><strong>第三步</strong>：迭代计算并优化磁芯线圈设计</li>
-    <li><strong>第四步</strong>：查看汇总报告，导出设计文件</li>
+    <li><strong>规格与约束</strong>：输入电气规格与设计约束，通过预检后进入下一步</li>
+    <li><strong>磁芯与绕组</strong>：联合迭代选型、方案比较与确认</li>
+    <li><strong>汇总与报告</strong>：损耗与温升等汇总、设计文件与报告导出</li>
   </ol>
-  <p><em>部分高级功能需订阅专业版解锁。</em></p>
+
   <h2>常见问题</h2>
-  <p><strong>1. 如何导出 PDF/Excel 设计报告？</strong><br>需使用<strong>专业版</strong>。在第四步「汇总与报告」页的「设计文件」卡片中点击导出按钮。免费版不支持导出，升级专业版后可解锁 PDF、JSON、Excel 导出。</p>
-  <p><strong>2. 专业版如何订阅？</strong><br>打开 App，进入「设置」→「升级到专业版」选择订阅方案。</p>
-  <p><strong>3. 是否支持离线使用？</strong><br>是的，核心计算功能完全离线运行。iCloud 同步需要网络连接。</p>
-  <p><strong>4. 如何联系技术支持？</strong><br><a href="https://github.com/Tobebetter2026/InductorDesignPro/issues/new/choose">点击这里提交 Issue</a></p>
-  <h2>技术支持</h2>
-  <p><a href="https://github.com/Tobebetter2026/InductorDesignPro/issues/new?template=bug_report.md">提交 Bug 报告</a> · <a href="https://github.com/Tobebetter2026/InductorDesignPro/issues/new?template=feature_request.md">提交功能建议</a></p>
-  <p>我们将在 1–2 个工作日内回复。</p>
+  <ul>
+    <li><strong>如何导出 PDF 或保存 JSON？</strong>在 <strong>14 天试用期内</strong>或<strong>有效年度订阅期间</strong>，于第三步「汇总与报告」操作；试用期满未订阅须先订阅（应用内提示）。</li>
+    <li><strong>如何开通订阅？</strong>打开应用内<strong>「设置」</strong>页，点击<strong>「订阅」</strong>；或在<strong>试用结束</strong>、<strong>导出 / 保存 JSON</strong>受限、进入<strong>第二步 / 第三步</strong>被提示等场景，点击<strong>「开启年度订阅」</strong>或<strong>「查看年度订阅」</strong>。均为同一订阅流程，通过 Apple 完成年度订阅。</li>
+    <li><strong>能否离线使用？</strong>核心计算可离线；iCloud 与 App Store 相关操作需网络。</li>
+    <li><strong>技术支持：</strong><a href="https://github.com/Tobebetter2026/InductorDesignPro/issues/new/choose">GitHub Issues</a></li>
+  </ul>
+
+  <h2>链接</h2>
+  <p><a href="https://github.com/Tobebetter2026/InductorDesignPro/issues/new?template=bug_report.md">Bug 报告</a> · <a href="https://github.com/Tobebetter2026/InductorDesignPro/issues/new?template=feature_request.md">功能建议</a></p>
   <hr>
-  <p><a href="Privacy-policy.html">隐私政策</a></p>
+  <p><a href="privacy-policy.html">隐私政策</a></p>
   <p>开发者：Xu Jianzhong · © 2026. All rights reserved.</p>
 </body>
 </html>

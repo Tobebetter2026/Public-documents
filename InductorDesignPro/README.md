@@ -13,11 +13,11 @@
 </head>
 <body>
   <h1>电感设计专家</h1>
-  <p><small>最后更新：2026-04-27</small></p>
-  <p><strong>电感设计专家</strong> 为 Buck / Boost 功率电感提供从规格与约束、磁芯与绕组联合迭代，到汇总报告与导出的完整工作流；计算在设备本地完成，设计数据不向开发者服务器上传。</p>
-  <p>应用采用 <strong>14 天全功能试用</strong>，之后需通过 App Store <strong>年度订阅</strong>继续使用完整能力；具体权限与试用期规则以应用内为准。</p>
+  <p><small>最后更新：2026-05-13</small></p>
+  <p><strong>电感设计专家</strong> 为 Buck / Boost / Forward / 交错 Buck（多相）等功率电感提供从规格与约束、磁芯与绕组联合迭代，到汇总报告与导出的完整工作流；计算在设备本地完成，设计数据不向开发者服务器上传。</p>
+  <p>本说明面向从 <strong>App Store</strong> 安装的应用（iPhone / iPad / Mac，以实际上架为准）。应用提供 <strong>14 天全功能试用</strong>，之后需通过 App Store <strong>年度订阅</strong>继续使用完整能力；具体以应用内为准。</p>
 
-  <h2>2.0版要点（相对早期版本）</h2>
+  <h2>2.2版要点（相对早期版本）</h2>
   <ul>
     <li>规格与约束<strong>合并为一步</strong>，集中预检</li>
     <li>磁芯 × 线规（含利兹）<strong>联合迭代</strong>、多方案对比与更完整的损耗/温升链路</li>
@@ -27,9 +27,9 @@
 
   <h2>主要功能概览</h2>
   <ul>
-    <li>Buck / Boost 拓扑，CCM / DCM / BCM，AP 与 LI² 等选型辅助</li>
+    <li>Buck / Boost / Forward / 交错 Buck（多相）拓扑，CCM / DCM / BCM，AP 与 LI² 等选型辅助</li>
     <li>多种损耗模型路径（Steinmetz、厂商曲线/表、铁粉官方公式等，依材料类型选用）</li>
-    <li>帕累托前沿筛选、多组备选方案对比；可选 iCloud 在您的设备间同步，设计主数据仍以本机为主</li>
+    <li>帕累托前沿筛选、多组备选方案对比</li>
     <li><strong>PDF / JSON</strong> 报告与设计文件导出</li>
     <li><strong>「我的数据库」</strong>（本应用突出优势）：本机维护材料、磁芯、骨架，支持<strong>批量导入/导出</strong>，与内置库一并参与选型；<strong>不上传服务器</strong>。</li>
   </ul>
@@ -43,9 +43,8 @@
 
   <h2>常见问题</h2>
   <ul>
-    <li><strong>如何导出 PDF 或保存 JSON？</strong>在 <strong>14 天试用期内</strong>或<strong>有效年度订阅期间</strong>，于第三步「汇总与报告」操作；试用期满未订阅须先订阅（应用内提示）。</li>
-    <li><strong>如何开通订阅？</strong>打开应用内<strong>「设置」</strong>页，点击<strong>「订阅」</strong>；或在<strong>试用结束</strong>、<strong>导出 / 保存 JSON</strong>受限、进入<strong>第二步 / 第三步</strong>被提示等场景，点击<strong>「开启年度订阅」</strong>或<strong>「查看年度订阅」</strong>。均为同一订阅流程，通过 Apple 完成年度订阅。</li>
-    <li><strong>能否离线使用？</strong>核心计算可离线；iCloud 与 App Store 相关操作需网络。</li>
+    <li><strong>如何开通订阅？</strong>打开<strong>「设置」</strong>，点击<strong>「订阅」</strong>。试用结束后，应用内会提示开通年度方案（如<strong>「开启年度订阅」</strong>），按提示通过 <strong>Apple</strong> 完成订阅或恢复购买即可。</li>
+    <li><strong>能否离线使用？</strong>核心计算可离线；App Store 订阅相关操作需网络。</li>
     <li><strong>技术支持：</strong><a href="https://github.com/Tobebetter2026/InductorDesignPro/issues/new/choose">GitHub Issues</a></li>
   </ul>
 
